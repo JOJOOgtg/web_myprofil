@@ -1,1 +1,73 @@
-# web_myprofil
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>porfil me</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: rgba(0,0,0,0.5);
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+      max-width: 400px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+      margin: 10px 0 20px;
+      line-height: 1.5;
+    }
+    .btn-instagram {
+      display: inline-block;
+      padding: 12px 25px;
+      border-radius: 30px;
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn-instagram:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="c:\Users\LENOVO\Pictures\jj.jpg.jpg" alt="Foto Profil">
+    <h1>Joni</h1>
+    <p>
+      Halo! Saya Jojo 👋<br>
+      Suka belajar hal baru, kayaknya.<br>
+      thenks !
+    </p>
+    <a href="https://instagram.com/joesstve_" target="_blank" class="btn-instagram">
+      🌸 Ikuti saya di Instagram
+    </a>
+  </div>
+</body>
+</html>
